@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.header-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-box a {
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.header-box a:hover {
+  transition: 0.3s;
+  color: rgb(129, 240, 121);
+}
+
+.header-box a:active {
+  transition: 0.3s;
+  color: rgb(223, 171, 228);
+}
+
+.header-box h1 {
+  padding-left: 15px;
+}
+
+.sub-box {
+  width: 33.3%;
+}
+
+.sub-box:last-child {
+  text-align: right;
+}
+
+.button-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-doggo {
+  background: transparent;
+  border: 2px solid #333;
+  border-radius: 6px;
+  color: #333;
+  padding: 16px 32px;
+  display: inline-block;
+  margin: 15px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 200px;
+  /* Text */
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.add-doggo:hover {
+  background-color: #333;
+  color: white;
+}
+
+.doggos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+img {
+  flex-grow: 1;
+  max-width: 20%;
+  height: 250px;
+  padding: 3px;
+}
